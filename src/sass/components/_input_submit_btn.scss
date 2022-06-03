@@ -1,0 +1,10 @@
+input[type='button'] {
+    @include input;
+    color: var(--clr-neutral-100);
+    background-color: var(--clr-primary);
+    border: none;
+    font-weight: 600;
+    // &:hover {
+    //     background-color: var(--clr-primary-hover);
+    // }
+}

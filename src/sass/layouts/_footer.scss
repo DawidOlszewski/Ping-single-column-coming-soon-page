@@ -1,0 +1,16 @@
+footer {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+    & p {
+        color: var(--clr-neutral-200);
+        font-size: 0.8rem;
+
+        margin-top: 0.7rem;
+    }
+}
+
+.icon-container {
+    display: flex;
+}

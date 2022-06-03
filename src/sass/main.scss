@@ -1,4 +1,15 @@
-@import 'base/base';
-@import 'base/font';
 @import 'base/reset';
 @import 'base/root';
+@import 'base/base';
+@import 'base/font';
+
+@import 'abstract/mixins';
+
+@import 'layouts/header';
+@import 'layouts/footer';
+
+@import 'pages/index';
+
+@import 'components/input_submit_btn';
+@import 'components/input_text';
+@import 'components/icon';

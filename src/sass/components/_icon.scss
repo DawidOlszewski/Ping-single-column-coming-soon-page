@@ -1,0 +1,20 @@
+.icon {
+    width: clamp(1.4rem, 8vw, 2.1rem);
+    height: clamp(1.4rem, 8vw, 2.1rem);
+    border-radius: 50%;
+    background-color: white;
+    border: 0.1rem var(--clr-neutral-100) solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+
+    i {
+        color: var(--clr-primary);
+    }
+
+    &:not(:last-of-type) {
+        margin-right: 0.3rem;
+    }
+}
