@@ -4,6 +4,8 @@
 
 Simple page, that validates a email address.
 
+preview site: https://comming-soon-page.netlify.app/
+
 I used here:
 * scss
 * regex
