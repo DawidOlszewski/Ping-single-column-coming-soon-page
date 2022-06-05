@@ -20,40 +20,47 @@
         <link rel="stylesheet" href="css/main.css" />
     </head>
     <body>
-        <header>
-            <img class="logo" src="assets/logo.svg" alt="logo" />
-            <h1>We are launching <span>soon!</span></h1>
-            <p>Subscribe and get notified</p>
-        </header>
-        <form>
-            <input
-                class=""
-                type="text"
-                name=""
-                id=""
-                placeholder="Your email address..."
+        <div class="container">
+            <header>
+                <img class="logo" src="assets/logo.svg" alt="logo" />
+                <h1>We are launching <span>soon!</span></h1>
+                <p>Subscribe and get notified</p>
+            </header>
+            <form>
+                <input
+                    data-input
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="Your email address..."
+                />
+                <p class="" data-warning>
+                    Please provide a valid email address
+                </p>
+                <button data-submit type="submit" value="">Notify me</button>
+            </form>
+            <img
+                class="illustration-dashboard"
+                src="assets/illustration-dashboard.png"
+                alt="illustration-dashboard"
             />
-            <!-- <p class="invalid">Please provide a valid email address</p> -->
-            <button type="submit" value="">Notify me</button>
-        </form>
-        <img
-            class="illustration-dashboard"
-            src="assets/illustration-dashboard.png"
-            alt="illustration-dashboard"
-        />
 
-        <footer>
-            <div class="icon-container">
-                <a class="icon" href=""
-                    ><i class="fa-brands fa-facebook-f"></i
-                ></a>
-                <a class="icon" href=""><i class="fa-brands fa-twitter"></i></a>
-                <a class="icon" href=""
-                    ><i class="fa-brands fa-instagram"></i
-                ></a>
-            </div>
+            <footer>
+                <div class="icon-container">
+                    <a class="icon" href=""
+                        ><i class="fa-brands fa-facebook-f"></i
+                    ></a>
+                    <a class="icon" href=""
+                        ><i class="fa-brands fa-twitter"></i
+                    ></a>
+                    <a class="icon" href=""
+                        ><i class="fa-brands fa-instagram"></i
+                    ></a>
+                </div>
 
-            <p>&copy; Copyright Ping. All rights reserved.</p>
-        </footer>
+                <p>&copy; Copyright Ping. All rights reserved.</p>
+            </footer>
+        </div>
+        <script src="index.js"></script>
     </body>
 </html>
