@@ -7,14 +7,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: var(--clr-primary);
 
     text-decoration: none;
 
-    i {
-        color: var(--clr-primary);
-    }
+    transition: background-color 0.2s ease, color 0.1s ease 0.1s;
 
     &:not(:last-of-type) {
         margin-right: 0.9rem;
+    }
+
+    &:focus,
+    &:hover {
+        color: white;
+        background-color: var(--clr-primary);
+        outline: none;
+        border: none;
     }
 }
