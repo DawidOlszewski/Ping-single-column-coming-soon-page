@@ -1,0 +1,12 @@
+form > p {
+    display: none;
+    margin-top: 0.3rem;
+    margin-bottom: 0.8rem;
+    color: var(--clr-secondary-300);
+    font-size: 0.9rem;
+    font-weight: 600;
+
+    &.invalid {
+        display: block;
+    }
+}

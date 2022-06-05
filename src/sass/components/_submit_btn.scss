@@ -1,0 +1,32 @@
+button[type='submit'] {
+    @include input;
+
+    position: relative;
+
+    color: var(--clr-neutral-100);
+    background-color: var(--clr-primary);
+    border: none;
+    font-weight: 600;
+    box-shadow: 0 0.5rem 1.3rem -0.5rem var(--clr-primary);
+
+    &:focus,
+    &:hover {
+        border: none;
+        outline: none;
+        &::after {
+            opacity: 1;
+        }
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        box-shadow: 0 0.5rem 1.3rem -0.8rem var(--clr-primary);
+        opacity: 0;
+        transition: opacity 0.2s ease;
+    }
+}

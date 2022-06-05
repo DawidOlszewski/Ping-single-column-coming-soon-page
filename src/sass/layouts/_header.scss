@@ -3,6 +3,7 @@ header {
     display: flex;
     flex-flow: column nowrap;
     text-align: center;
+    margin-bottom: 2rem;
 
     .logo {
         width: 4rem;
@@ -12,9 +13,16 @@ header {
 
 h1 {
     font-weight: 300;
+    font-size: 1.5rem;
     color: var(--clr-neutral-200);
     & span {
         font-weight: 700;
         color: var(--clr-neutral-900);
     }
+}
+
+header > p {
+    margin-top: 0.7rem;
+    font-size: 0.9rem;
+    color: black;
 }

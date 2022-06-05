@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-flow: column nowrap;
+    padding: 2rem 3rem;
 }
 
 form {
@@ -9,8 +10,12 @@ form {
     align-items: center;
 }
 
-.illustration-dashboard {
+img {
+    padding-top: 2rem;
     margin-top: auto;
+}
 
-    margin-bottom: 3rem;
+footer {
+    // justify-content: end;
+    margin-top: 3rem;
 }
