@@ -5,8 +5,4 @@
     &::after {
         border-radius: inherit;
     }
-
-    &:not(:first-child) {
-        margin-top: 0.7rem;
-    }
 }

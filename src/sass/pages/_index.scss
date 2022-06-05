@@ -1,22 +1,17 @@
 body {
     display: flex;
     justify-content: center;
+    padding: 3rem 2rem;
 }
 
 .container {
     width: 100%;
-    max-width: 44rem;
-}
+    max-width: 38rem;
 
-form {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-}
-
-img {
-    padding-top: 2rem;
-    margin-top: auto;
+    & > img {
+        padding-top: 2rem;
+        margin-top: auto;
+    }
 }
 
 footer {
